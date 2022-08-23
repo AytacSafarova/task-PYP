@@ -1,0 +1,388 @@
+@media only screen and (max-width: 994px) {
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Raleway", Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        margin: 10px 0;
+        line-height: 1.5;
+    }
+
+    /* html{
+    font-size: 15px;
+ } */
+    body {
+        width: 100%;
+    }
+
+    .navbar {
+        width: 100%;
+        display: block;
+        position: fixed;
+        top: 0;
+        margin-bottom: 3rem;
+        height: 3rem;
+        padding: 0.7rem 1rem;
+        font-size: 1.5rem !important;
+        background-color: #000;
+        overflow-y: hidden;
+        z-index: 3;
+
+
+    }
+
+    .navbar p {
+        color: white;
+        float: left;
+    }
+
+    .navbar i {
+        float: right;
+
+    }
+
+    /* Left-container */
+    .asidediv {
+        width: 100%;
+        position: fixed;
+        display: none;
+        /* width: 100%; */
+        /* height: 100%; */
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 2;
+    }
+
+    .left-container {
+        display: none;
+        position: fixed;
+        z-index: 5;
+        top: 0;
+        padding-left: 20px;
+        padding-top: 20px;
+        background-color: #f1f1f1;
+        overflow: scroll;
+
+
+    }
+
+    .fa-remove {
+        display: none;
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+
+    .left-container h3 {
+        font-family: "Raleway", Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        margin-bottom: 15px;
+        color: #000 !important
+    }
+
+    h6 {
+        font-size: 16px;
+    }
+
+    .left-container p {
+        font-size: 15px;
+        margin-bottom: 15px;
+        color: #000 !important
+    }
+
+
+    .left-container input {
+        width: 90%;
+        height: 40px;
+        border: 1px solid #ccc !important;
+        padding-left: 10px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .left-container form {
+        margin-top: 30px;
+
+    }
+
+    .left-container form .btn {
+        margin-top: 10px;
+        width: 80%;
+
+    }
+
+
+    .links {
+        margin-top: 40px;
+    }
+
+    .links a {
+        margin-bottom: 40px;
+        display: block;
+        color: black;
+        overflow: hidden;
+        text-decoration: none;
+        cursor: pointer;
+
+    }
+
+    /* right */
+    .right-container {
+        width: 100vw;
+        padding-left: 1rem;
+        z-index: -1;
+
+        position: absolute;
+        margin-top: 5rem;
+
+    }
+
+    .right-container h1 {
+        color: #4CAF50;
+        font-size: 2rem;
+    }
+
+    #apartment {
+        margin-top: 13px;
+    }
+
+    #apartment .row1 img {
+        width: 100%;
+        height: 30%;
+    }
+
+    #apartment .row2 {
+        box-sizing: inherit;
+        width: 100%;
+        margin-top: 5px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #apartment .row2 div {
+        padding: 5px;
+    }
+
+    #apartment .row2>img {
+        width: 22%;
+        margin-right: 1rem;
+        height: 100px;
+    }
+
+
+
+
+
+    .row {
+        margin-left: 0;
+        display: flex;
+    }
+
+    .col1 {
+        width: 49%;
+    }
+
+    .col2 {
+        width: 49%;
+    }
+
+    .message {
+        color: red;
+        ;
+        display: block;
+        height: 2rem
+    }
+
+    .right-container .row p {
+
+        font-size: 1.7rem !important;
+        margin-bottom: 2rem;
+        color: #000 !important
+    }
+
+
+
+    .right-container h4 {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .col1 div {
+        display: flex;
+    }
+
+    .col2 div {
+        display: flex;
+    }
+
+    .span {
+        margin-bottom: 1.5rem;
+    }
+
+    hr {
+        border: 0;
+        border-top: 0.1rem solid #eee;
+        margin: 2rem 0;
+    }
+
+    .btn {
+        background-color: #4CAF50;
+        padding: 0;
+        border: none;
+        text-align: center;
+        color: #fff !important;
+        height: 30px;
+        width: 15rem;
+        font-size: 15px;
+    }
+
+    .btn:hover {
+        background-color: #ccc !important;
+
+    }
+
+    /* Contact */
+    #contact {
+        margin-top: 2rem;
+    }
+
+    #contact input {
+        width: 80%;
+        height: 2rem;
+        border: #000 1px solid;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    #contact p {
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+
+}
+
+
+
+
+#subscribe {
+
+    display: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: all 3s ease-in;
+    /* On hover */
+    animation: ease-in;
+    animation-duration: 3s;
+    animation: rotate(0deg) scale(2) skew(0deg) translate(100px);
+
+}
+
+#subscribe div {
+    transition: all 3s ease-in;
+    /* On hover */
+
+    position: absolute;
+    transition: all 4s;
+    padding: 15px 20px;
+    text-align: center;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, 0);
+    width: 60%;
+    height: auto;
+    background-color: white;
+    transition: all 1s ease-in;
+    /* On hover */
+    transition: all 3s ease-in;
+    /* On hover */
+
+
+}
+
+#subscribe {
+    transition: all 3s ease-in;
+    /* On hover */
+
+    animation: animatezoom 0.6s;
+    animation-duration: 0.6s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: animatezoom;
+}
+
+#subscribe div h1 {
+    margin-bottom: 20px;
+
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#subscribe div h2 {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000 !important;
+
+}
+
+#subscribe input {
+
+    transition: all 3s ease-in;
+    /* On hover */
+
+    width: 90%;
+    height: 40px;
+
+
+}
+
+#subscribe .btn {
+    transition: all 3s ease-in;
+    /* On hover */
+
+    width: 130px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+#subscribe i {
+    float: right;
+}

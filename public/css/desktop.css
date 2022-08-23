@@ -1,0 +1,369 @@
+@media only screen and (min-width: 994px) {
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: inherit;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Raleway", Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        margin: 10px 0;
+        line-height: 1.5;
+
+    }
+
+    /* html{
+        font-size: 10;
+    } */
+
+    .container {
+        margin: auto;
+        width: 75%;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+
+    /* Left-container */
+
+    .left-container {
+        position: fixed;
+        top: 0;
+        width: 20%;
+        height: 100vh;
+        padding-left: 20px;
+        padding-top: 20px;
+        background-color: #f1f1f1;
+        overflow: scroll;
+
+    }
+
+    .left-container form {
+        margin-top: 40px;
+    }
+
+    .fa-remove {
+        display: none;
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    #subscribe .fa-remove {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+
+
+    .left-container h3 {
+        font-family: "Raleway", Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        margin-bottom: 15px;
+        color: #000 !important
+    }
+
+    h6 {
+        font-size: 16px;
+    }
+
+    .left-container p {
+        font-size: 15px;
+        margin-bottom: 15px;
+        color: #000 !important
+    }
+
+
+    .left-container input {
+        width: 90%;
+        height: 40px;
+        border: 1px solid #ccc !important;
+        padding-left: 10px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .left-container form .btn {
+        margin-top: 10px;
+    }
+
+    .links {
+        margin-top: 40px;
+    }
+
+    .links a {
+        margin-bottom: 40px;
+        display: block;
+        color: black;
+        overflow: hidden;
+        text-decoration: none;
+        cursor: pointer;
+
+    }
+
+
+    /*Right-container */
+    .right-container {
+        width: 60%;
+        margin-left: 28%;
+        padding: 0 15px;
+        border-right: 1px solid grey;
+    }
+
+    .right-container h1 {
+        color: #4CAF50 !important;
+        font-size: 30px;
+    }
+
+    #apartment {
+        margin-top: 13px;
+    }
+
+    #apartment .row1 img {
+        width: 100%;
+        height: 370px;
+    }
+
+    #apartment .row2 {
+        
+        margin-top: 5px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #apartment .row2 div {
+        padding: 5px;
+    }
+
+    #apartment .row2>img {
+        width: 25%;
+        margin-right: 10px;
+        height: 100px;
+
+    }
+
+    #apartment .row2 :hover {
+        cursor: pointer;
+
+        opacity: 0.5;
+    }
+
+
+
+
+    .row {
+        display: flex;
+    }
+
+    .col1 {
+        width: 49%;
+    }
+
+    .col2 {
+        width: 49%;
+    }
+
+    .message {
+        color: red;
+        ;
+        display: block;
+        height: 20px;
+
+    }
+
+    .right-container .row p {
+
+        font-size: 18px !important;
+        margin-bottom: 20px;
+        color: #000 !important
+    }
+
+    .right-container h4 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .col1 div {
+        display: flex;
+    }
+
+    .col2 div {
+        display: flex;
+    }
+
+    .span {
+        margin-bottom: 15px;
+    }
+
+    hr {
+        border: 0;
+        border-top: 1px solid #eee;
+        margin: 20px 0;
+    }
+
+    .btn {
+        background-color: #4CAF50;
+        padding: 0;
+        border: none;
+        text-align: center;
+        color: #fff !important;
+        height: 30px;
+        width: 200px;
+        font-size: 15px;
+    }
+
+    .btn:hover {
+        background-color: #ccc !important;
+
+    }
+
+
+    /* Contact */
+    #contact {
+        margin-top: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    #contact p {
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .right-container input {
+        width: 80%;
+        height: 40px;
+        padding-left: 10px;
+    }
+
+    #subscribe {
+
+        display: none;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.4);
+        transition: all 3s ease-in;
+        /* On hover */
+        animation: ease-in;
+        animation-duration: 3s;
+        animation: rotate(0deg) scale(2) skew(0deg) translate(100px);
+
+    }
+
+    #subscribe .fa-remove {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    #subscribe div {
+        transition: all 3s ease-in;
+        /* On hover */
+
+        position: absolute;
+        transition: all 4s;
+        padding: 15px 20px;
+        text-align: center;
+        left: 50%;
+        top: 20%;
+        transform: translate(-50%, 0);
+        width: 60%;
+        height: auto;
+        background-color: white;
+        transition: all 1s ease-in;
+        /* On hover */
+        transition: all 3s ease-in;
+        /* On hover */
+
+
+    }
+
+    #subscribe {
+        transition: all 3s ease-in;
+        /* On hover */
+
+        animation: animatezoom 0.6s;
+        animation-duration: 0.6s;
+        animation-timing-function: ease;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-direction: normal;
+        animation-fill-mode: none;
+        animation-play-state: running;
+        animation-name: animatezoom;
+    }
+
+    #subscribe div h1 {
+        margin-bottom: 20px;
+
+        margin-top: 20px;
+        font-size: 30px;
+        font-weight: 400;
+    }
+
+    #subscribe div h2 {
+        margin-bottom: 20px;
+        font-weight: 400;
+        font-size: 20px;
+        color: #000 !important;
+
+    }
+
+    #subscribe input {
+
+        transition: all 3s ease-in;
+        /* On hover */
+
+        width: 90%;
+        height: 40px;
+
+
+    }
+
+    #subscribe .btn {
+        transition: all 3s ease-in;
+        /* On hover */
+
+        width: 130px;
+        height: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+
+    #subscribe i {
+        float: right;
+    }
+
+}

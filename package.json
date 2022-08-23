@@ -1,0 +1,23 @@
+{
+  "name": "pyp-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AytacSafarova/PYP-task.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AytacSafarova/PYP-task/issues"
+  },
+  "homepage": "https://github.com/AytacSafarova/PYP-task#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
